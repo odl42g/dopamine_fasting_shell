@@ -1,0 +1,12 @@
+pywinctl>=0.0.27
+psutil>=5.9.0
+mss>=10.2.0
+Pillow>=10.0.0
+winrt-Windows.Media.Ocr>=3.0.0; sys_platform == "win32"
+winrt-Windows.Globalization>=3.0.0; sys_platform == "win32"
+winrt-Windows.Graphics.Imaging>=3.0.0; sys_platform == "win32"
+winrt-Windows.Storage.Streams>=3.0.0; sys_platform == "win32"
+pyobjc-core>=10.0; sys_platform == "darwin"
+pyobjc-framework-Quartz>=10.0; sys_platform == "darwin"
+pyobjc-framework-Vision>=10.0; sys_platform == "darwin"
+pyobjc-framework-Cocoa>=10.0; sys_platform == "darwin"
